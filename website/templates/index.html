@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>Cadastre pontos para o robo</h1>
+    <form action="/novo" method="post">
+        <input type="text" name="name" placeholder="Nome do conjunto de pontos">
+        <input type="text" name="x_loc" placeholder="Coordenada x">
+        <input type="text" name="y_loc" placeholder="Coordenada y">
+        <input type="text" name="z_loc" placeholder="Coordenada z">
+        <input type="text" name="r_loc" placeholder="Coordenada r">
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3>Busque por um id especifico para deletar</h3>
+    <form action="/deletar_caminho/" method="delete">
+        <input type="int" name="id_delete" placeholder="Id para deletar">
+        <input type="submit" value="Submit">
+</body>
+</html>
