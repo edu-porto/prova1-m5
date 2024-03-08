@@ -39,5 +39,7 @@ O arquivo <code> server.py</code> tem toda lógica da API
 
 O arquivo <code> requirements.txt </code> tem as bibliotecas utilizadas no projeto. 
 
+O arquivo <code> caminhos.json </code> tem as entradas que foram feitas com o tiny db
 
-PS. A api está funcional, mas a integração com o frontend não deu tempo para fazer.
+
+PS. A api está funcional e a rota de postar funciona no frontend, mas a integração com o delete, get e update não deu tempo de fazer.
